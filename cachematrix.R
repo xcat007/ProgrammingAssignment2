@@ -3,6 +3,24 @@
 
 ## Write a short comment describing this function
 
+## --------------------------------------------------------------
+
+## the make makeCacheMatrix function takes a matrix input and creates a list
+## of functions as an output.  
+
+## The cacheSolve function solves the inverse of the matrix and if you run it
+## again without changing the initial matrix it will return the results from
+## cache instead of re-calculating it
+
+## to test code, try running the following:
+## a<- makeCacheMatrix(matrix(1:4,2,2))
+## a$get()
+## a$getmean()
+## cacheSolve(a)
+
+## Note: I did not re-name variables to make it easy to compare back to
+## the sample function
+
 
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
